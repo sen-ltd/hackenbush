@@ -123,3 +123,10 @@ node tools/report.mts                # the tables above
 ## License
 
 MIT
+
+<!-- sen-publish:links -->
+## Links
+
+- 🌐 Demo: https://sen.ltd/portfolio/hackenbush/
+- 📝 記事: https://qiita.com/sen-ltd/items/5dd1213188a5cf700084
+<!-- /sen-publish:links -->
