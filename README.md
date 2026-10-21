@@ -83,7 +83,7 @@ matches the win/lose search on the union.
 | 10 | 59,049 | 59,049 | 1,024 | 1,023 | 512 | 56,490 |
 | 12 | 531,441 | 531,441 | 4,096 | 4,095 | 2,048 | 521,202 |
 
-- **No two stalks have the same value**: 3<sup>n</sup> stalks, 3<sup>n</sup> values, every one born on day *n*.
+- **No two stalks have the same value**: 3<sup>n</sup> stalks, 3<sup>n</sup> values. Every stalk of up to 7 edges is born on the day of its length (checked one by one in the tests); at 12 edges the latest birthday is 12.
 - The x + \*m stalks are exactly a blue-red stalk *x* with *m* green edges on top (plus the all-green stalk \*n):
   2<sup>n</sup> − 2 + 1 per length, checked string by string. The x ± ↑\* stalks are exactly a blue-red stalk with
   green then blue (↑\*) or green then red (↓\*) on top, plus GB = ↑\* and GR = ↓\*.
