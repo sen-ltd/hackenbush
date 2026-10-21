@@ -1,0 +1,122 @@
+{
+ "experiment": "graphs",
+ "args": [
+  "3",
+  "6",
+  "BR"
+ ],
+ "ms": 14747,
+ "node": "v26.3.0",
+ "k": 3,
+ "maxEdges": 6,
+ "colors": [
+  "B",
+  "R"
+ ],
+ "rows": [
+  {
+   "edges": 1,
+   "graphs": 8,
+   "outcomeAgree": 8,
+   "splitAgree": 8,
+   "numbers": 8,
+   "distinctValues": 2,
+   "outcomes": {
+    "L": 4,
+    "R": 4,
+    "P": 0,
+    "N": 0
+   },
+   "kinds": {
+    "number": 8
+   }
+  },
+  {
+   "edges": 2,
+   "graphs": 72,
+   "outcomeAgree": 72,
+   "splitAgree": 72,
+   "numbers": 72,
+   "distinctValues": 5,
+   "outcomes": {
+    "L": 28,
+    "R": 28,
+    "P": 16,
+    "N": 0
+   },
+   "kinds": {
+    "number": 72
+   }
+  },
+  {
+   "edges": 3,
+   "graphs": 588,
+   "outcomeAgree": 588,
+   "splitAgree": 588,
+   "numbers": 588,
+   "distinctValues": 12,
+   "outcomes": {
+    "L": 294,
+    "R": 294,
+    "P": 0,
+    "N": 0
+   },
+   "kinds": {
+    "number": 588
+   }
+  },
+  {
+   "edges": 4,
+   "graphs": 3999,
+   "outcomeAgree": 3999,
+   "splitAgree": 3999,
+   "numbers": 3999,
+   "distinctValues": 29,
+   "outcomes": {
+    "L": 1717,
+    "R": 1717,
+    "P": 565,
+    "N": 0
+   },
+   "kinds": {
+    "number": 3999
+   }
+  },
+  {
+   "edges": 5,
+   "graphs": 22482,
+   "outcomeAgree": 22482,
+   "splitAgree": 22482,
+   "numbers": 22482,
+   "distinctValues": 59,
+   "outcomes": {
+    "L": 11226,
+    "R": 11226,
+    "P": 30,
+    "N": 0
+   },
+   "kinds": {
+    "number": 22482
+   }
+  },
+  {
+   "edges": 6,
+   "graphs": 106805,
+   "outcomeAgree": 106805,
+   "splitAgree": 106805,
+   "numbers": 106805,
+   "distinctValues": 113,
+   "outcomes": {
+    "L": 46799,
+    "R": 46799,
+    "P": 13207,
+    "N": 0
+   },
+   "kinds": {
+    "number": 106805
+   }
+  }
+ ],
+ "distinctValuesAll": 115,
+ "firstBad": null
+}

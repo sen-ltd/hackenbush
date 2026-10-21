@@ -1,0 +1,252 @@
+{
+ "experiment": "stalks",
+ "args": [
+  "12"
+ ],
+ "ms": 52608,
+ "node": "v26.3.0",
+ "maxLen": 12,
+ "rows": [
+  {
+   "len": 1,
+   "stalks": 3,
+   "distinctValues": 3,
+   "distinctKinds": {
+    "number": 2,
+    "nimber": 1
+   },
+   "maxBirthday": 1,
+   "starPattern": 0,
+   "starPatternHolds": 0,
+   "upPattern": 0,
+   "upPatternHolds": 0,
+   "starKindOutside": 0,
+   "upKindOutside": 0
+  },
+  {
+   "len": 2,
+   "stalks": 9,
+   "distinctValues": 9,
+   "distinctKinds": {
+    "number": 4,
+    "number+nimber": 2,
+    "ups+nimber": 2,
+    "nimber": 1
+   },
+   "maxBirthday": 2,
+   "starPattern": 2,
+   "starPatternHolds": 2,
+   "upPattern": 0,
+   "upPatternHolds": 0,
+   "starKindOutside": 0,
+   "upKindOutside": 0
+  },
+  {
+   "len": 3,
+   "stalks": 27,
+   "distinctValues": 27,
+   "distinctKinds": {
+    "number": 8,
+    "number+nimber": 6,
+    "number+ups+nimber": 4,
+    "other": 8,
+    "nimber": 1
+   },
+   "maxBirthday": 3,
+   "starPattern": 6,
+   "starPatternHolds": 6,
+   "upPattern": 4,
+   "upPatternHolds": 4,
+   "starKindOutside": 0,
+   "upKindOutside": 0
+  },
+  {
+   "len": 4,
+   "stalks": 81,
+   "distinctValues": 81,
+   "distinctKinds": {
+    "number": 16,
+    "number+nimber": 14,
+    "number+ups+nimber": 8,
+    "other": 42,
+    "nimber": 1
+   },
+   "maxBirthday": 4,
+   "starPattern": 14,
+   "starPatternHolds": 14,
+   "upPattern": 8,
+   "upPatternHolds": 8,
+   "starKindOutside": 0,
+   "upKindOutside": 0
+  },
+  {
+   "len": 5,
+   "stalks": 243,
+   "distinctValues": 243,
+   "distinctKinds": {
+    "number": 32,
+    "number+nimber": 30,
+    "number+ups+nimber": 16,
+    "other": 164,
+    "nimber": 1
+   },
+   "maxBirthday": 5,
+   "starPattern": 30,
+   "starPatternHolds": 30,
+   "upPattern": 16,
+   "upPatternHolds": 16,
+   "starKindOutside": 0,
+   "upKindOutside": 0
+  },
+  {
+   "len": 6,
+   "stalks": 729,
+   "distinctValues": 729,
+   "distinctKinds": {
+    "number": 64,
+    "number+nimber": 62,
+    "number+ups+nimber": 32,
+    "other": 570,
+    "nimber": 1
+   },
+   "maxBirthday": 6,
+   "starPattern": 62,
+   "starPatternHolds": 62,
+   "upPattern": 32,
+   "upPatternHolds": 32,
+   "starKindOutside": 0,
+   "upKindOutside": 0
+  },
+  {
+   "len": 7,
+   "stalks": 2187,
+   "distinctValues": 2187,
+   "distinctKinds": {
+    "number": 128,
+    "number+nimber": 126,
+    "number+ups+nimber": 64,
+    "other": 1868,
+    "nimber": 1
+   },
+   "maxBirthday": 7,
+   "starPattern": 126,
+   "starPatternHolds": 126,
+   "upPattern": 64,
+   "upPatternHolds": 64,
+   "starKindOutside": 0,
+   "upKindOutside": 0
+  },
+  {
+   "len": 8,
+   "stalks": 6561,
+   "distinctValues": 6561,
+   "distinctKinds": {
+    "number": 256,
+    "number+nimber": 254,
+    "number+ups+nimber": 128,
+    "other": 5922,
+    "nimber": 1
+   },
+   "maxBirthday": 8,
+   "starPattern": 254,
+   "starPatternHolds": 254,
+   "upPattern": 128,
+   "upPatternHolds": 128,
+   "starKindOutside": 0,
+   "upKindOutside": 0
+  },
+  {
+   "len": 9,
+   "stalks": 19683,
+   "distinctValues": 19683,
+   "distinctKinds": {
+    "number": 512,
+    "number+nimber": 510,
+    "number+ups+nimber": 256,
+    "other": 18404,
+    "nimber": 1
+   },
+   "maxBirthday": 9,
+   "starPattern": 510,
+   "starPatternHolds": 510,
+   "upPattern": 256,
+   "upPatternHolds": 256,
+   "starKindOutside": 0,
+   "upKindOutside": 0
+  },
+  {
+   "len": 10,
+   "stalks": 59049,
+   "distinctValues": 59049,
+   "distinctKinds": {
+    "number": 1024,
+    "number+nimber": 1022,
+    "number+ups+nimber": 512,
+    "other": 56490,
+    "nimber": 1
+   },
+   "maxBirthday": 10,
+   "starPattern": 1022,
+   "starPatternHolds": 1022,
+   "upPattern": 512,
+   "upPatternHolds": 512,
+   "starKindOutside": 0,
+   "upKindOutside": 0
+  },
+  {
+   "len": 11,
+   "stalks": 177147,
+   "distinctValues": 177147,
+   "distinctKinds": {
+    "number": 2048,
+    "number+nimber": 2046,
+    "number+ups+nimber": 1024,
+    "other": 172028,
+    "nimber": 1
+   },
+   "maxBirthday": 11,
+   "starPattern": 2046,
+   "starPatternHolds": 2046,
+   "upPattern": 1024,
+   "upPatternHolds": 1024,
+   "starKindOutside": 0,
+   "upKindOutside": 0
+  },
+  {
+   "len": 12,
+   "stalks": 531441,
+   "distinctValues": 531441,
+   "distinctKinds": {
+    "number": 4096,
+    "number+nimber": 4094,
+    "number+ups+nimber": 2048,
+    "other": 521202,
+    "nimber": 1
+   },
+   "maxBirthday": 12,
+   "starPattern": 4094,
+   "starPatternHolds": 4094,
+   "upPattern": 2048,
+   "upPatternHolds": 2048,
+   "starKindOutside": 0,
+   "upKindOutside": 0
+  }
+ ],
+ "distinctValuesAll": 797160,
+ "games": 797354,
+ "examples": {
+  "G": "*",
+  "BG": "1*",
+  "GB": "↑*",
+  "GR": "↓*",
+  "GG": "*2",
+  "BGB": "1↑*",
+  "GBB": "{0, ↑* | 0}",
+  "GBR": "{0, * | 0, ↑*}",
+  "BRG": "1/2*",
+  "GGB": "{0, *, *2 | 0, *}",
+  "GBG": "{0, ↑* | 0, ↑*}",
+  "BGG": "1*2",
+  "RGB": "−1↑*"
+ }
+}

@@ -1,0 +1,147 @@
+{
+ "experiment": "graphs",
+ "args": [
+  "3",
+  "6",
+  "BRG"
+ ],
+ "ms": 207008,
+ "node": "v26.3.0",
+ "k": 3,
+ "maxEdges": 6,
+ "colors": [
+  "B",
+  "R",
+  "G"
+ ],
+ "rows": [
+  {
+   "edges": 1,
+   "graphs": 12,
+   "outcomeAgree": 12,
+   "splitAgree": 12,
+   "numbers": 8,
+   "distinctValues": 3,
+   "outcomes": {
+    "L": 4,
+    "R": 4,
+    "P": 0,
+    "N": 4
+   },
+   "kinds": {
+    "number": 8,
+    "nimber": 4
+   }
+  },
+  {
+   "edges": 2,
+   "graphs": 159,
+   "outcomeAgree": 159,
+   "splitAgree": 159,
+   "numbers": 82,
+   "distinctValues": 10,
+   "outcomes": {
+    "L": 53,
+    "R": 53,
+    "P": 26,
+    "N": 27
+   },
+   "kinds": {
+    "number": 82,
+    "number+nimber": 50,
+    "ups+nimber": 18,
+    "nimber": 9
+   }
+  },
+  {
+   "edges": 3,
+   "graphs": 1903,
+   "outcomeAgree": 1903,
+   "splitAgree": 1903,
+   "numbers": 776,
+   "distinctValues": 36,
+   "outcomes": {
+    "L": 743,
+    "R": 743,
+    "P": 0,
+    "N": 417
+   },
+   "kinds": {
+    "number": 776,
+    "number+nimber": 512,
+    "nimber": 231,
+    "number+ups+nimber": 132,
+    "ups+nimber": 66,
+    "other": 186
+   }
+  },
+  {
+   "edges": 4,
+   "graphs": 18753,
+   "outcomeAgree": 18753,
+   "splitAgree": 18753,
+   "numbers": 6860,
+   "distinctValues": 137,
+   "outcomes": {
+    "L": 7528,
+    "R": 7528,
+    "P": 1384,
+    "N": 2313
+   },
+   "kinds": {
+    "number": 6860,
+    "number+nimber": 6688,
+    "number+ups+nimber": 1308,
+    "ups+nimber": 882,
+    "nimber": 411,
+    "other": 2604
+   }
+  },
+  {
+   "edges": 5,
+   "graphs": 150600,
+   "outcomeAgree": 150600,
+   "splitAgree": 150600,
+   "numbers": 51724,
+   "distinctValues": 532,
+   "outcomes": {
+    "L": 64037,
+    "R": 64037,
+    "P": 30,
+    "N": 22496
+   },
+   "kinds": {
+    "number": 51724,
+    "number+nimber": 45732,
+    "number+ups+nimber": 12252,
+    "nimber": 10694,
+    "other": 26754,
+    "ups+nimber": 3444
+   }
+  },
+  {
+   "edges": 6,
+   "graphs": 1007389,
+   "outcomeAgree": 1007389,
+   "splitAgree": 1007389,
+   "numbers": 345501,
+   "distinctValues": 1982,
+   "outcomes": {
+    "L": 438296,
+    "R": 438296,
+    "P": 54965,
+    "N": 75832
+   },
+   "kinds": {
+    "number": 345501,
+    "number+nimber": 362156,
+    "number+ups+nimber": 77760,
+    "other": 187172,
+    "ups+nimber": 24668,
+    "nimber": 10132
+   }
+  }
+ ],
+ "distinctValuesAll": 2176,
+ "firstBad": null
+}

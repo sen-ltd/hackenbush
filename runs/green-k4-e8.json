@@ -1,0 +1,110 @@
+{
+ "experiment": "green",
+ "args": [
+  "4",
+  "8"
+ ],
+ "ms": 111279,
+ "node": "v26.3.0",
+ "k": 4,
+ "maxEdges": 8,
+ "rows": [
+  {
+   "edges": 1,
+   "graphs": 5,
+   "agreeFusion": 5,
+   "agreeEngine": 5,
+   "maxNim": 1,
+   "hist": {
+    "1": 5
+   }
+  },
+  {
+   "edges": 2,
+   "graphs": 31,
+   "agreeFusion": 31,
+   "agreeEngine": 31,
+   "maxNim": 2,
+   "hist": {
+    "0": 15,
+    "2": 16
+   }
+  },
+  {
+   "edges": 3,
+   "graphs": 185,
+   "agreeFusion": 185,
+   "agreeEngine": 185,
+   "maxNim": 3,
+   "hist": {
+    "1": 97,
+    "3": 88
+   }
+  },
+  {
+   "edges": 4,
+   "graphs": 980,
+   "agreeFusion": 980,
+   "agreeEngine": 980,
+   "maxNim": 4,
+   "hist": {
+    "0": 416,
+    "2": 432,
+    "4": 132
+   }
+  },
+  {
+   "edges": 5,
+   "graphs": 4460,
+   "agreeFusion": 4460,
+   "agreeEngine": 4460,
+   "maxNim": 5,
+   "hist": {
+    "1": 2272,
+    "3": 1864,
+    "5": 324
+   }
+  },
+  {
+   "edges": 6,
+   "graphs": 17487,
+   "agreeFusion": 17487,
+   "agreeEngine": 17487,
+   "maxNim": 6,
+   "hist": {
+    "0": 8135,
+    "2": 7120,
+    "4": 1968,
+    "6": 264
+   }
+  },
+  {
+   "edges": 7,
+   "graphs": 60107,
+   "agreeFusion": 60107,
+   "agreeEngine": 60107,
+   "maxNim": 7,
+   "hist": {
+    "1": 33895,
+    "3": 21976,
+    "5": 3828,
+    "7": 408
+   }
+  },
+  {
+   "edges": 8,
+   "graphs": 184715,
+   "agreeFusion": 184715,
+   "agreeEngine": 184715,
+   "maxNim": 8,
+   "hist": {
+    "0": 100375,
+    "2": 67440,
+    "4": 14644,
+    "6": 2208,
+    "8": 48
+   }
+  }
+ ],
+ "firstBad": null
+}

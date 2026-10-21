@@ -1,0 +1,22 @@
+{
+  "name": "hackenbush",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Blue-Red-Green Hackenbush in the browser with an exact combinatorial-game-theory engine: canonical game values for any drawing, every cut marked as winning or losing, Berlekamp's sign-expansion rule and the colon and fusion principles checked against brute force. TypeScript, no runtime deps.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 4173",
+    "test": "vitest run",
+    "verify": "node tools/verify.mts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.5"
+  },
+  "license": "MIT"
+}

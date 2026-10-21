@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackenbush — exact game values for any drawing</title>
+    <meta
+      name="description"
+      content="Blue-Red-Green Hackenbush in the browser with an exact combinatorial game theory engine: every drawing gets its canonical game value (numbers like 3/4, nimbers like *2, infinitesimals like ↑*), every cut is marked as winning or losing, and a perfect computer plays the other side. Draw your own positions. Berlekamp's sign-expansion rule and the colon and fusion principles are checked against brute force."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23141518'/%3E%3Crect x='3' y='25' width='26' height='3' fill='%238a7a63'/%3E%3Cpath d='M10 25V16M10 16l5-7M22 25v-9' stroke='%236aa8f0' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M15 9l3 -5M22 16l4-6' stroke='%23e8705a' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M22 16l-4-6' stroke='%235cc27a' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Hackenbush <span>every drawing has a value</span></h1>
+        <p class="sub">
+          Edges stand on the ground. <strong class="blue-t">Blue</strong> cuts a blue or green edge,
+          <strong class="red-t">Red</strong> cuts a red or green edge, and whatever is no longer joined to the ground falls
+          away. Whoever cannot cut loses. The side panel shows the exact <strong>game value</strong> of the drawing in
+          Conway's sense: a number like 3/4 is how many free moves Blue is ahead, <strong>*</strong> (star) is a win for
+          whoever moves first, and <strong>↑</strong> (up) is a positive amount smaller than every positive number. With
+          hints on, every cut you may make is marked <strong class="win-t">✓</strong> (keeps the win) or
+          <strong class="lose-t">✗</strong> (hands it over).
+        </p>
+      </header>
+
+      <div id="wrap">
+        <div class="stage">
+          <div class="controls">
+            <label class="sel">drawing <select id="presetSel"></select></label>
+            <label class="sel">you play
+              <select id="youSel">
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+              </select>
+            </label>
+            <label class="sel">first
+              <select id="firstSel">
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+              </select>
+            </label>
+            <label class="sel chk"><input type="checkbox" id="hints" checked /> hints</label>
+            <button id="undo">Undo</button>
+            <button id="restart">Restart</button>
+            <button id="mode">Edit</button>
+          </div>
+          <div class="controls" id="palette" hidden>
+            <span class="sel">pen</span>
+            <button data-pen="B" class="pen blue on">blue</button>
+            <button data-pen="R" class="pen red">red</button>
+            <button data-pen="G" class="pen green">green</button>
+            <button id="clear">Clear all</button>
+          </div>
+          <div id="boardwrap"><svg id="board" role="img" aria-label="Hackenbush drawing"></svg></div>
+          <div id="status" aria-live="polite"></div>
+        </div>
+        <div class="side">
+          <h3>value of the drawing</h3>
+          <div class="panel" id="value"></div>
+          <h3>reading a value</h3>
+          <div class="panel legend-panel">
+            <p><b>3/4</b> a number: Blue is that many moves ahead. Blue-red drawings always have one.</p>
+            <p><b>*</b>, <b>*2</b>, … nimbers: whoever moves first wins. All-green drawings are always one.</p>
+            <p><b>↑</b> up: positive but smaller than any positive number; <b>↑*</b> is a first-player win.</p>
+            <p><b>{a | b}</b> what Blue can reach | what Red can reach, when nothing simpler fits.</p>
+            <p>A sum is played by moving in one piece at a time; values add.</p>
+          </div>
+        </div>
+      </div>
+
+      <section class="notes">
+        <h2>How the values are computed</h2>
+        <p>
+          A Hackenbush position is a game {<em>Blue's options</em> | <em>Red's options</em>}. The engine values a drawing
+          by cutting every edge in turn, valuing what is left, and reducing the result to its <em>canonical form</em>:
+          options that are worse than another option are deleted, and options the opponent can immediately reverse are
+          bypassed. Equal games then have identical forms, so each value is stored once and comparing two values is an
+          id lookup. Pieces that meet only at the ground are valued separately and added.
+        </p>
+        <h2>Three theorems, checked by brute force</h2>
+        <p>
+          <em>Berlekamp's rule</em>: a blue-red stalk is worth the number whose sign expansion is its colours, read from
+          the ground up. <em>Colon and fusion principles</em>: an all-green drawing is worth a nimber, found by fusing the
+          vertices of every circuit and adding one per edge up the remaining tree. And every blue-red drawing is a
+          number. The repository checks all three on every small drawing, and checks the engine's verdict on who wins
+          against a plain win/lose search that knows nothing about game values.
+        </p>
+      </section>
+
+      <footer>
+        <p>
+          Built by <a href="https://sen.ltd/">SEN LLC</a>. TypeScript, no runtime
+          dependencies. <a href="https://github.com/sen-ltd/hackenbush">Source</a>.
+        </p>
+      </footer>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

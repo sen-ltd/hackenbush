@@ -1,0 +1,11 @@
+{
+ "experiment": "sums",
+ "args": [
+  "20000"
+ ],
+ "ms": 503,
+ "node": "v26.3.0",
+ "count": 20000,
+ "agree": 20000,
+ "firstBad": null
+}

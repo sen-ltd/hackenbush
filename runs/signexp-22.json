@@ -1,0 +1,123 @@
+{
+ "experiment": "signexp",
+ "args": [
+  "22"
+ ],
+ "ms": 160857,
+ "node": "v26.3.0",
+ "stalks": 8388606,
+ "match": 8388606,
+ "firstMismatch": null,
+ "perLen": [
+  {
+   "len": 1,
+   "stalks": 2,
+   "match": 2
+  },
+  {
+   "len": 2,
+   "stalks": 4,
+   "match": 4
+  },
+  {
+   "len": 3,
+   "stalks": 8,
+   "match": 8
+  },
+  {
+   "len": 4,
+   "stalks": 16,
+   "match": 16
+  },
+  {
+   "len": 5,
+   "stalks": 32,
+   "match": 32
+  },
+  {
+   "len": 6,
+   "stalks": 64,
+   "match": 64
+  },
+  {
+   "len": 7,
+   "stalks": 128,
+   "match": 128
+  },
+  {
+   "len": 8,
+   "stalks": 256,
+   "match": 256
+  },
+  {
+   "len": 9,
+   "stalks": 512,
+   "match": 512
+  },
+  {
+   "len": 10,
+   "stalks": 1024,
+   "match": 1024
+  },
+  {
+   "len": 11,
+   "stalks": 2048,
+   "match": 2048
+  },
+  {
+   "len": 12,
+   "stalks": 4096,
+   "match": 4096
+  },
+  {
+   "len": 13,
+   "stalks": 8192,
+   "match": 8192
+  },
+  {
+   "len": 14,
+   "stalks": 16384,
+   "match": 16384
+  },
+  {
+   "len": 15,
+   "stalks": 32768,
+   "match": 32768
+  },
+  {
+   "len": 16,
+   "stalks": 65536,
+   "match": 65536
+  },
+  {
+   "len": 17,
+   "stalks": 131072,
+   "match": 131072
+  },
+  {
+   "len": 18,
+   "stalks": 262144,
+   "match": 262144
+  },
+  {
+   "len": 19,
+   "stalks": 524288,
+   "match": 524288
+  },
+  {
+   "len": 20,
+   "stalks": 1048576,
+   "match": 1048576
+  },
+  {
+   "len": 21,
+   "stalks": 2097152,
+   "match": 2097152
+  },
+  {
+   "len": 22,
+   "stalks": 4194304,
+   "match": 4194304
+  }
+ ]
+}
